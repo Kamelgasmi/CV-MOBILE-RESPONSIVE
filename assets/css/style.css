@@ -1,0 +1,594 @@
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+html {
+    font-size:100%;
+    }
+body {
+    font-size:100%;
+    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+  
+} 
+.navbar {
+    background-color: #727272;
+}
+.navbar-brand {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; 
+}
+.nav-link {
+    font-size: 20px;
+        display: inline-block;
+        padding: 0.5em;
+        background-color: #727272;
+        text-decoration: none;
+        color: white;
+        border-color: black;
+        margin-left:5px ;
+        border-radius: 6px;
+    }
+ul a:hover{
+    background-color: #727272;
+}
+header{
+    background-image:url("../img/background.jpg");
+    background-size: cover;
+}
+#profil{
+    width:40px;
+    height:40px;
+    margin-left: 10px;
+    padding:0px;
+}
+
+
+#icon1, #icon2, #icon3, #icon4, #icon5, #icon6 {
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+}
+#jquery{
+    width: 50px;
+    height: 50px;
+    margin-right: 2px;
+}
+hr {
+    max-width: 50px;
+    border-color: #f05f40;
+    border-width: 3px;
+    padding-bottom: 40px;
+}
+
+h1{
+    padding-top:150px;
+    padding-bottom: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    
+    text-shadow: #f05f40 1px 1px, #f05f40 -1px 1px, #f05f40 -1px -1px, #f05f40 1px -1px;
+    margin-top: 120px;
+
+
+
+}
+#quisuisje {
+    margin-bottom: 70px;
+}
+header {
+    color:black;
+    margin-top:50px;
+    width: 100%;
+    min-height: 700px;
+}
+h1, h2, h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    text-shadow: #f05f40 1px 1px, #f05f40 -1px 1px, #f05f40 -1px -1px, #f05f40 1px -1px;
+    padding-top: 15px;
+}
+
+.titrecontact {
+    margin-top: 120px;
+}
+#btnprésentation{
+    margin-bottom: 120px;
+    margin-top:80px;
+}
+#btnprésentation:hover {
+    color: #eb3812;
+}
+#présentation{
+    background-color: #f05f40;
+    
+}
+#expériences{
+    background-color: #fcded8;
+}
+h2{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 3em;
+}
+#titrecompétences{
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+#language{
+    margin-bottom: 50px;
+}
+#btnformations{
+    margin-top:30px;
+    margin-bottom: 70px;
+}
+h3{
+    font-size: 20px;
+}
+p{
+    font-size: 15px;
+}
+p:nth-child(even){
+    color:#f05f40
+}
+#frontend{
+    margin-top: 20px;
+}
+ #pro, #educateur, #interim{
+    margin-top:40px;
+    margin-bottom: 30px;
+    border-width: 1px;
+    border:solid #f05f40 ;    
+}
+#scolaires{
+    margin-top:0px;
+    margin-bottom: 0px;
+    border-width: 1px;
+    border:solid #f05f40 ;
+}
+
+ #btncompétences, #btnprojets, #btnexperiences, #btnprojets, #btncontact{
+    margin-top: 60px;
+    margin-bottom:60px ;
+}
+#btncontact{
+    margin-top: 0px;
+    margin-bottom:200px
+}
+#html, #css, #php, #bootstrap{
+    width: 50px;
+    height: 50px;
+}
+#javascript{
+    width: 20px;
+    height: 20px;
+}
+.serviceBox{
+    color: #606060;
+    background-color: #fdfdfd;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    padding: 0 15px 45px 15px;
+    margin: 60px 0 0;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.serviceBox:hover{ box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); }
+.serviceBox:after{
+    content: "";
+    background: linear-gradient(to right,#16f7ff,#02BBD7);
+    width: 100px;
+    height: 20px;
+    border-radius: 50px 50px 0 0;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+.serviceBox .service-count{
+    color: #fff;
+    background: linear-gradient(to right bottom,#16f7ff,#16f7ff,#02BBD7,#02BBD7);
+    font-size: 50px;
+    line-height: 100px;
+    width: 120px;
+    height: 120px;
+    margin: -61px auto 0;
+    border-radius: 50%;
+    text-shadow: 0 0 4px #555;
+    display: block;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 50% 80%, 0 50%);
+}
+.serviceBox .title{
+    color: #02BBD7;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+.serviceBox .description{
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0 0 25px;
+}
+.serviceBox .service-icon{
+    color: #02BBD7;
+    background-color: #fff;
+    font-size: 35px;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2),0 0 1px 12px #dee8e6;
+}
+.serviceBox:hover .service-icon i{
+    transform: rotateX(360deg);
+    transition: all 0.3s;
+}
+#box{
+    margin-top: 60px;
+    margin-bottom:60px ;
+}
+#contact{
+    height:600px;
+}
+header{
+    height:650px;
+  
+}
+@media screen and (min-width: 601px) {
+    h1 {
+         font-size: 5em;
+  }
+}
+  @media screen and (max-width: 600px) {
+    h1 {
+        font-size: 3em;
+  }
+}
+
+  @media screen and (min-width: 601px) {
+    h2 {
+         font-size: 4em;
+  }
+}
+  @media screen and (max-width: 600px) {
+    h2 {
+        font-size: 2.5em;
+  }
+}
+
+  @media screen and (min-width: 601px) {
+    p {
+         font-size: 1.2em;
+  }
+}
+  @media screen and (max-width: 600px) {
+    p {
+        font-size: 0.8em;
+  }
+}
+
+  @media screen and (min-width: 771px) {
+    #texttitre {
+        margin-left: 80px;
+  }
+}
+  @media screen and (max-width: 770px) {
+    #texttitre {
+        margin-left: 10px;
+  }
+}
+  @media screen and (max-width: 450px) {
+    #texttitre {
+        margin-left: 0px;
+  }
+}
+
+.animatable {
+    
+    /* initially hide animatable objects */
+    visibility: hidden;
+    
+    /* initially pause animatable objects their animations */
+    -webkit-animation-play-state: paused;   
+    -moz-animation-play-state: paused;     
+    -ms-animation-play-state: paused;
+    -o-animation-play-state: paused;   
+    animation-play-state: paused; 
+  }
+  
+  /* show objects being animated */
+  .animated {
+    visibility: visible;
+    
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+  
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -ms-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+  }
+  
+  /* CSS Animations (extracted from http://glifo.uiparade.com/) */
+ 
+  @-webkit-keyframes bounceInLeft {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateX(-2000px);
+      }
+      60% {
+          -webkit-transform: translateX(20px);
+      }
+  
+      80% {
+          -webkit-transform: translateX(-5px);
+      }
+  
+      100% {
+          opacity: 1;
+          -webkit-transform: translateX(0);
+      }
+  }
+  
+  @-moz-keyframes bounceInLeft {
+      0% {
+          opacity: 0;
+          -moz-transform: translateX(-2000px);
+      }
+  
+      60% {
+          -moz-transform: translateX(20px);
+      }
+  
+      80% {
+          -moz-transform: translateX(-5px);
+      }
+  
+      100% {
+          opacity: 1;
+          -moz-transform: translateX(0);
+      }
+  }
+  
+  @-o-keyframes bounceInLeft {
+      0% {
+          opacity: 0;
+          -o-transform: translateX(-2000px);
+      }
+  
+      60% {
+          opacity: 1;
+          -o-transform: translateX(20px);
+      }
+  
+      80% {
+          -o-transform: translateX(-5px);
+      }
+  
+      100% {
+          opacity: 1;
+          -o-transform: translateX(0);
+      }
+  }
+  
+  @keyframes bounceInLeft {
+      0% {
+          opacity: 0;
+          transform: translateX(-2000px);
+      }
+  
+      60% {
+          transform: translateX(20px);
+      }
+  
+      80% {
+          transform: translateX(-5px);
+      }
+  
+      100% {
+          opacity: 1;
+          transform: translateX(0);
+      }
+  }
+  @-webkit-keyframes bounceInRight {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateX(2000px);
+      }
+  
+      60% {
+          -webkit-transform: translateX(-20px);
+      }
+  
+      80% {
+          -webkit-transform: translateX(5px);
+      }
+  
+      100% {
+          opacity: 1;
+          -webkit-transform: translateX(0);
+      }
+  }
+  
+  @-moz-keyframes bounceInRight {
+      0% {
+          opacity: 0;
+          -moz-transform: translateX(2000px);
+      }
+  
+      60% {
+          -moz-transform: translateX(-20px);
+      }
+  
+      80% {
+          -moz-transform: translateX(5px);
+      }
+  
+      100% {
+          opacity: 1;
+          -moz-transform: translateX(0);
+      }
+  }
+  
+  @-o-keyframes bounceInRight {
+      0% {
+          opacity: 0;
+          -o-transform: translateX(2000px);
+      }
+  
+      60% {
+          -o-transform: translateX(-20px);
+      }
+  
+      80% {
+          -o-transform: translateX(5px);
+      }
+  
+      100% {
+          opacity: 1;
+          -o-transform: translateX(0);
+      }
+  }
+  
+  @keyframes bounceInRight {
+      0% {
+          opacity: 0;
+          transform: translateX(2000px);
+      }
+  
+      60% {
+          transform: translateX(-20px);
+      }
+  
+      80% {
+          transform: translateX(5px);
+      }
+  
+      100% {
+          opacity: 1;
+          transform: translateX(0);
+      }
+  }
+  @-webkit-keyframes bounceIn {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(.3);
+	}
+	50% {
+		-webkit-transform: scale(1.05);
+	}
+
+	70% {
+		-webkit-transform: scale(.9);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: scale(1);
+	}
+}
+
+@-moz-keyframes bounceIn {
+	0% {
+		opacity: 0;
+		-moz-transform: scale(.3);
+	}
+
+	50% {
+		-moz-transform: scale(1.05);
+	}
+
+	70% {
+		-moz-transform: scale(.9);
+	}
+
+	100% {
+		opacity: 1;
+		-moz-transform: scale(1);
+	}
+}
+
+@-o-keyframes bounceIn {
+	0% {
+		opacity: 0;
+		-o-transform: scale(.3);
+	}
+
+	50% {
+		-o-transform: scale(1.05);
+	}
+
+	70% {
+		-o-transform: scale(.9);
+	}
+
+	100% {
+		opacity: 1;
+		-o-transform: scale(1);
+	}
+}
+
+@keyframes bounceIn {
+	0% {
+		opacity: 0;
+		transform: scale(.3);
+	}
+
+	50% {
+		transform: scale(1.05);
+	}
+
+	70% {
+		transform: scale(.9);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+  .animated.animationDelay{
+      animation-delay:.4s;
+      -webkit-animation-delay:.4s;
+  }
+  .animated.animationDelayMed{
+      animation-delay:1.2s;
+      -webkit-animation-delay:1.2s;
+  }
+  .animated.animationDelayLong{
+      animation-delay:1.6s;
+      -webkit-animation-delay:1.6s;
+  }
+
+  .animated.bounceInRight {
+      -webkit-animation-name: bounceInRight;
+      -moz-animation-name: bounceInRight;
+      -o-animation-name: bounceInRight;
+      animation-name: bounceInRight;
+  }
+  .animated.bounceInLeft {
+      -webkit-animation-name: bounceInLeft;
+      -moz-animation-name: bounceInLeft;
+      -o-animation-name: bounceInLeft;
+      animation-name: bounceInLeft;
+  }
+  .animated.bounceIn {
+	-webkit-animation-name: bounceIn;
+	-moz-animation-name: bounceIn;
+	-o-animation-name: bounceIn;
+	animation-name: bounceIn;
+}
+  
